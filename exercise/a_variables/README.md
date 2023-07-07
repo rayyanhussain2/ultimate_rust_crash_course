@@ -1,7 +1,7 @@
 # Exercise A: Variables
 
 ### Part 1
-- [ ] Make a new project named `variables` using cargo
+- [.] Make a new project named `variables` using cargo
   - See "cargo help" if you forgot the command.
 - [ ] Open `Cargo.toml`
   - [ ] Change the version number to `2.3.4` and save the file.  Keep an eye out for that version number in cargo's output when you run it!
