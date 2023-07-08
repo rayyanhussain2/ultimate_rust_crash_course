@@ -1,3 +1,4 @@
+/* Variables */
 let bunnie: i32 = 16;
 let bunnies = 16;
 let (a, b) = (6, 5);
@@ -17,3 +18,9 @@ let x = "Rayyan";
 }
 println!("{}", x);
 //if a variable is  used before being initialised compiler will throw error; safety
+
+/* fn -  snakecase, no variable length arguments, multiple types for a single arg; macro does like println!*/
+fn do_stuff(let qty: f64,let oz: f64) -> f64 
+{
+    return qty * oz; // same as 'qty * oz' 
+}
